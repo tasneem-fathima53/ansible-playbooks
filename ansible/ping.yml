@@ -1,6 +1,10 @@
 --- #testing all the servers connectivity
-- hosts: all
+- hosts: web
   tasks:
     - name: pinging servers
       ansible.builtin.ping:
+    - debug: msg="This is first playbook"
+- hosts: app
+  tasks:
+    - debug: meg="hello appserver"        
 ...
