@@ -6,5 +6,5 @@
     - debug: msg="This is first playbook"
 - hosts: app
   tasks:
-    - debug: meg="hello appserver"        
+    - debug: msg="hello appserver"        
 ...
