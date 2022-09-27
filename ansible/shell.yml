@@ -16,5 +16,4 @@
 
     - name: Print the data in variable OUT
       debug:
-        msg: "{{OUT}}"
- 
+        msg: "{{OUT.stdout}}"
